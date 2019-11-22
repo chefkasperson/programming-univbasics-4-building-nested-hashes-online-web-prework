@@ -22,7 +22,12 @@ def monopoly_with_third_tier
     monopoly = {
 	  :railroads => {
 	    :pieces => 4,
-	    :names => {},
+	    :names => {
+	      :one => "Blah",
+	      :two => "Glah",
+	      :three => "Gee",
+	      :four => "Gosh"
+	    },
 	    :rent_in_dollars => {
 	      :single => 25,
 	      :double => 50,
