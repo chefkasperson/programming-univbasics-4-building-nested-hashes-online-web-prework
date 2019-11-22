@@ -29,7 +29,7 @@ def monopoly_with_third_tier
 	      :four => "Gosh"
 	    },
 	    :rent_in_dollars => {
-	      :single => 25,
+	      :one_piece_owned => 25,
 	      :double => 50,
 	      :triple => 100,
 	      :quadruple => 200
